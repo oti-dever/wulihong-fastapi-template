@@ -10,4 +10,5 @@
             "source.organizeImports": "explicit"
         },
     },
+    "files.eol": "\n"
 }

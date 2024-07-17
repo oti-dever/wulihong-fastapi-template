@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "wulihong-1688-fastapi"
+name = "wulihong-fastapi-template"
 version = "0.1.0"
 description = ""
-authors = ["Sun-ZhenXing <1006925066@qq.com>"]
+authors = ["Alex Sun <1006925066@qq.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,7 +10,7 @@ python = "^3.10"
 fastapi = "^0.111.1"
 uvicorn = {extras = ["standard"], version = "^0.30.1"}
 pydantic-settings = "^2.3.4"
-httpx = "^0.27.0"
+toml = "^0.10.2"
 
 
 [tool.poetry.group.dev.dependencies]
