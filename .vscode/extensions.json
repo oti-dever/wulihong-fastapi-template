@@ -1,9 +1,7 @@
 {
-    "recommendations": [
-        "ms-python.python",
-        "ms-python.isort",
-        "ms-python.black-formatter",
-        "mikestead.dotenv",
-        "EditorConfig.EditorConfig",
-    ]
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "fill-labs.dependi"
+  ]
 }

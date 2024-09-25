@@ -15,16 +15,10 @@ git clone https://github.com/oti-dever/wulihong-fastapi-template.git
 cd wulihong-fastapi-template
 ```
 
-创建虚拟环境：
+安装依赖：
 
 ```bash
-python -m venv venv
-```
-
-下面的操作请在虚拟环境下工作，安装依赖：
-
-```bash
-poetry install --no-root
+uv sync
 ```
 
 安装 Git 钩子：
