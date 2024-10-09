@@ -17,6 +17,9 @@
   "files.eol": "\n",
   "cSpell.words": [
     "autocrlf",
+    "Cython",
+    "cythonize",
+    "docstrings",
     "fastapi",
     "uvicorn",
     "wulihong"

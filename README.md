@@ -1,14 +1,6 @@
-# API 服务模板（FastAPI）
+# FastAPI 服务模板
 
-本项目是一个基于 FastAPI 的 API 服务模板。
-
-> 本项目使用 LF 格式行尾，请确保你的编辑器支持，推荐使用 VS Code。全局设置停止自动转换行尾：
->
-> ```bash
-> git config --global core.autocrlf false
-> ```
-
-克隆项目：
+本项目是一个基于 FastAPI 的 API 服务模板，克隆项目：
 
 ```bash
 git clone https://github.com/oti-dever/wulihong-fastapi-template.git
@@ -19,32 +11,25 @@ cd wulihong-fastapi-template
 
 ```bash
 uv sync
-```
-
-安装 Git 钩子：
-
-```bash
-pre-commit install
+just i
 ```
 
 开发：
 
 ```bash
-fastapi dev main.py --reload
-# 或者
-uvicorn main:app --reload
+just dev
 ```
 
 生产运行：
 
 ```bash
-uvicorn main:app
+just start
 ```
 
 测试 Git 钩子：
 
 ```bash
-pre-commit run --all-files
+just test-hooks
 ```
 
 ## 部署

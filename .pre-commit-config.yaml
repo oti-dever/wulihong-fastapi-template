@@ -3,7 +3,7 @@ fail_fast: false
 exclude: |
   (?x)^(
     .vscode/.*|
-    poetry.lock
+    .*.lock
   )$
 repos:
   - repo: https://github.com/abravalheri/validate-pyproject
