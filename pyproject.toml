@@ -3,16 +3,16 @@ name = "wulihong-fastapi-template"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
-    "fastapi[standard]>=0.115.0",
+    "fastapi[standard]>=0.115.4",
     "httpx[brotli,http2,zstd]>=0.27.2",
     "pydantic>=2.9.2",
-    "pydantic-settings>=2.5.2",
+    "pydantic-settings>=2.6.0",
     "python-dotenv>=1.0.1",
     "toml>=0.10.2",
     "typing-extensions>=4.12.2",
-    "uvicorn[standard]>=0.31.0",
+    "uvicorn[standard]>=0.32.0",
     "tenacity>=9.0.0",
     "pyyaml>=6.0.2",
 ]
@@ -21,5 +21,6 @@ dependencies = [
 dev-dependencies = [
     "cython>=3.0.11",
     "pre-commit>=4.0.1",
+    "ruff>=0.7.1",
     "rust-just>=1.36.0",
 ]

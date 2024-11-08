@@ -1,5 +1,8 @@
 i:
-  pre-commit install && uv export > requirements.txt
+  uv sync && pre-commit install
+
+export:
+  uv export > requirements.txt
 
 dev:
   uvicorn main:app --reload
@@ -7,5 +10,11 @@ dev:
 start:
   uvicorn main:app
 
-test-hooks:
+run-hooks:
   pre-commit run --all-files
+
+test: run-hooks
+  ruff check
+
+remove-hooks:
+  pre-commit uninstall
